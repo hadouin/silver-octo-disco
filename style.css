@@ -68,11 +68,11 @@ main {
   margin: auto;
 }
 
-.contact-form div {
+.contact-form form>div {
   position: relative;
 }
 
-.contact-form div label:first-of-type {
+.contact-form form>div>label:first-of-type {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -82,7 +82,7 @@ main {
   padding-right: 1rem;
 }
 
-.contact-form div {
+.contact-form form>div {
   width: 100%;
   margin: 1rem 0;
   display: flex;
@@ -165,7 +165,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   row-gap: 2rem;
-  column-gap: 10rem;
+  column-gap: 8%;
 }
 
 .border {
@@ -205,5 +205,24 @@ img {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .flex>div {
+    width: 450px;
+  }
+
+  .radio {
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .contact-form form>div {
+    flex-direction: column;
+  }
+
+  .contact-form form>div label:first-of-type {
+    position: static;
+    text-align: left;
   }
 }

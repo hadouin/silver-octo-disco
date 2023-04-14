@@ -24,23 +24,31 @@
         </div>
         <div>
           <label for="year">Votre année ou cycle</label>
-          <input type="radio" name="cycle" id="cycle1" value="CPA">
-          <label for="cycle1"> CPA </label>
-          <input type="radio" name="cycle" id="cycle2" value="CII">
-          <label for="cycle2"> CII </label>
-          <input type="radio" name="cycle" id="cycle3" value="A1">
-          <label for="cycle3"> A1</label>
-          <input type="radio" name="cycle" id="cycle4" value="A2">
-          <label for="cycle4"> A2 </label>
-          <input type="radio" name="cycle" id="cycle5" value="A3">
-          <label for="cycle5"> A3</label>
+          <div class="radio">
+            <input type="radio" name="cycle" id="cycle1" value="CPA">
+            <label for="cycle1"> CPA </label>
+            <input type="radio" name="cycle" id="cycle2" value="CII">
+            <label for="cycle2"> CII </label>
+            <input type="radio" name="cycle" id="cycle3" value="A1">
+            <label for="cycle3"> A1</label>
+            <input type="radio" name="cycle" id="cycle4" value="A2">
+            <label for="cycle4"> A2 </label>
+            <input type="radio" name="cycle" id="cycle5" value="A3">
+            <label for="cycle5"> A3</label>
+          </div>
         </div>
         <div>
           <label for="parcours">Si vous êtes en A2 ou A3, quel est votre parcours ?</label>
           <select name="parcours" id="parcours">
-            <option>
-              Architecte des SIs
-            </option>
+            <option value="architecte-si">Architecte SI</option>
+            <option value="intelligence-donnees">Intelligence des données</option>
+            <option value="ingenieur-logiciel">Ingénieur logiciel</option>
+            <option value="numerique-sante">Numérique et santé</option>
+            <option value="objets-systemes-connectes">Objets et systèmes connectés</option>
+            <option value="securite-numerique-reseaux">Sécurité numérique et réseaux</option>
+            <option value="systemes-embarques">Systèmes embarqués</option>
+            <option value="innovation-creation-entreprise">Innovation et création d'entreprise</option>
+            <option value="ergonomie-interfaces-numeriques">Ergonomie et interfaces numériques</option>
           </select>
         </div>
         <div>
