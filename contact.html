@@ -16,18 +16,27 @@
     </ul>
   </header>
   <main>
-    <section>
+    <section class="contact-form">
       <form>
         <div>
-          <lablel for="email">e-Mail</lablel>
-        <input type="text" name="email" id="email">
+          <label for="email">e-Mail</label>
+          <input type="text" name="email" id="email" placeholder="Votre Adresse ISEP ici">
         </div>
         <div>
-          <lablel for="year">Votre année ou cycle</lablel>
-          <input type="text" name="email" id="email">
+          <label for="year">Votre année ou cycle</label>
+          <input type="radio" name="cycle" id="cycle1" value="CPA">
+          <label for="cycle1"> CPA </label>
+          <input type="radio" name="cycle" id="cycle2" value="CII">
+          <label for="cycle2"> CII </label>
+          <input type="radio" name="cycle" id="cycle3" value="A1">
+          <label for="cycle3"> A1</label>
+          <input type="radio" name="cycle" id="cycle4" value="A2">
+          <label for="cycle4"> A2 </label>
+          <input type="radio" name="cycle" id="cycle5" value="A3">
+          <label for="cycle5"> A3</label>
         </div>
         <div>
-          <lablel for="parcours">Si vous êtes en A2 ou A3, quel est votre parcours ?</lablel>
+          <label for="parcours">Si vous êtes en A2 ou A3, quel est votre parcours ?</label>
           <select name="parcours" id="parcours">
             <option>
               Architecte des SIs
@@ -39,7 +48,7 @@
           <input type="text" name="objet" id="objet">
         </div>
         <div>
-          <textarea class=""></textarea>
+          <textarea placeholder="Votre message ici"></textarea>
         </div>
         <button type="submit">Envoyer</button>
       </form>
