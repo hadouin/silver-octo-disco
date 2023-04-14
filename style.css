@@ -123,6 +123,12 @@ main {
   border-radius: 8px;
 }
 
+.contact-form button:hover {
+  transform: translate(2px, 5px);
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
 h1 {
   text-align: center;
 }
