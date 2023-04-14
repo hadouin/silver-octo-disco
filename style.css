@@ -1,5 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* Style The Dropdown Button */
@@ -25,4 +27,33 @@ body {
 
 header {
   width: 100%;
+  display: flex;
+  background-color: #222;
+}
+
+header .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header .nav li {
+  display: flex;
+}
+
+header .nav li a {
+  padding: 1rem 1rem;
+  background-color: #444;
+  color: #fff;
+}
+
+header .nav li a:hover {
+  background-color: #ff0;
+  color: #222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
